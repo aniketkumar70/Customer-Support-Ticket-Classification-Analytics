@@ -47,5 +47,4 @@ The notebook guides you through handling customer support ticket data, cleaning 
 - `matplotlib`
 - `scipy`
 
-Install them via:
 
