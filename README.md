@@ -47,4 +47,38 @@ The notebook guides you through handling customer support ticket data, cleaning 
 - `matplotlib`
 - `scipy`
 
+---
+
+## How to Use
+
+1. **Clone the Repository**  
+   `git clone <repo-url> && cd <repo-dir>`
+2. **Open the Notebook**  
+   Launch `main.ipynb` in Jupyter or Google Colab.
+3. **Prepare Your Data**  
+   Ensure your Excel file follows the required format (`ticket_id`, `ticket_text`, `issue_type`, `urgency_level`, `product`).
+4. **Run the Workflow**  
+   Execute each notebook step—data cleaning, preprocessing, modeling, and evaluation.
+5. **Interpret Results**  
+   Assess classification metrics and adjust the workflow for your support data.
+
+---
+
+## Customization
+
+- **Add more features**: Integrate custom keywords, product-specific logic, or external data.
+- **Tune models**: Experiment with different algorithms and hyperparameters.
+- **Extend visualizations**: Build additional charts for deeper operational insights.
+
+---
+
+## Limitations
+
+- Model assumes English-language inputs and predefined label sets.
+- Initial file input expects a specific column structure—adapt code as needed for different schemas.
+- Not optimized for real-time deployment (batch analytics focus).
+
+---
+
+
 
